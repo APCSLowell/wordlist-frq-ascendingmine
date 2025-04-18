@@ -23,11 +23,11 @@ public class WordList
   public void removeWordsOfLength(int len)
   {
     /* to be implemented in part (b) */
-    for(int i = 0; i <animals.size(); i++){
-      if(animals.get(i).length()==len){
-        animals.remove(i);
+    while(i<myList.size()){
+      if(animals.get(i).length()==len)
+        myList.remove(i);
         i--;
-      }
+      
     }
   }
 }
