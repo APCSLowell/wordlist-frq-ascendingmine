@@ -24,10 +24,10 @@ public class WordList
   {
     /* to be implemented in part (b) */
     while(i<myList.size()){
-      if(animals.get(i).length()==len)
+      if(myList.get(i).length()==len)
         myList.remove(i);
       else
-        i--;
+        i++;
       
     }
   }
